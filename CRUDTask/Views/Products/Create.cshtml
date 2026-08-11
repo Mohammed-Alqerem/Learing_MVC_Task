@@ -1,4 +1,5 @@
-﻿
+﻿@model Product
+
 <h1 class="my-5">Create Product</h1>
 
 
@@ -7,19 +8,26 @@
 
     <div>
         <label class="form-label">Name:</label>
-        <input class="form-control" type="text" name="Name" value="" />
+        <input class="form-control" type="text" name="Name" value="@Model.Name" />
+        <span class="text-danger" asp-validation-for="Name"></span>
     </div>
     <div>
         <label class="form-label">Price:</label>
-        <input class="form-control" type="text" name="Price" value="" />
+        <input class="form-control" type="text" name="Price" value="@Model.Price" />
+        <span class="text-danger" asp-validation-for="Price"></span>
+
     </div>
     <div>
         <label class="form-label">Rate:</label>
-        <input class="form-control" type="text" name="Rate" value="" />
+        <input class="form-control" type="text" name="Rate" value="@Model.Rate" />
+        <span class="text-danger" asp-validation-for="Rate"></span>
+
     </div>
     <div>
         <label class="form-label">Description:</label>
-        <textarea name="Description" class="form-control"></textarea>
+        <textarea name="Description" class="form-control">@Model.Description</textarea>
+        <span class="text-danger" asp-validation-for="Description"></span>
+
     </div>
     <input class="form-control btn btn-primary" type="submit" value="Create" />
 </form>

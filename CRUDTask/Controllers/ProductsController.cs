@@ -34,13 +34,18 @@ namespace CRUDTask.Controllers
         }
         public IActionResult Create()
         {
-            return View();
+            return View(new Product());
         }
         public IActionResult Add (Product request)
         {
-           var createProduct =  context.Products.Add(request);
-            context.SaveChanges();
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                 var createProduct =  context.Products.Add(request);
+                 context.SaveChanges();
+                 return RedirectToAction("Index");
+
+            }
+            return View("create",request);
         }
     }
 }

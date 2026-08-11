@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\moham\\OneDrive\\Desktop\\C#\\CRUDTask\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6DFC788D-5A1E-86CD-5C60-2EDC26C398F5}|CRUDTask\\CRUDTask.csproj|c:\\users\\moham\\onedrive\\desktop\\c#\\crudtask\\crudtask\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DFC788D-5A1E-86CD-5C60-2EDC26C398F5}|CRUDTask\\CRUDTask.csproj|solutionrelative:crudtask\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6DFC788D-5A1E-86CD-5C60-2EDC26C398F5}|CRUDTask\\CRUDTask.csproj|c:\\users\\moham\\onedrive\\desktop\\c#\\crudtask\\crudtask\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DFC788D-5A1E-86CD-5C60-2EDC26C398F5}|CRUDTask\\CRUDTask.csproj|solutionrelative:crudtask\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DFC788D-5A1E-86CD-5C60-2EDC26C398F5}|CRUDTask\\CRUDTask.csproj|c:\\users\\moham\\onedrive\\desktop\\c#\\crudtask\\crudtask\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DFC788D-5A1E-86CD-5C60-2EDC26C398F5}|CRUDTask\\CRUDTask.csproj|solutionrelative:crudtask\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6DFC788D-5A1E-86CD-5C60-2EDC26C398F5}|CRUDTask\\CRUDTask.csproj|c:\\users\\moham\\onedrive\\desktop\\c#\\crudtask\\crudtask\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFC788D-5A1E-86CD-5C60-2EDC26C398F5}|CRUDTask\\CRUDTask.csproj|solutionrelative:crudtask\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DFC788D-5A1E-86CD-5C60-2EDC26C398F5}|CRUDTask\\CRUDTask.csproj|c:\\users\\moham\\onedrive\\desktop\\c#\\crudtask\\crudtask\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,24 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Desktop\\C#\\CRUDTask\\CRUDTask\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "CRUDTask\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Desktop\\C#\\CRUDTask\\CRUDTask\\Models\\Product.cs",
+              "RelativeToolTip": "CRUDTask\\Models\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T11:16:43.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Desktop\\C#\\CRUDTask\\CRUDTask\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "CRUDTask\\Views\\Products\\Create.cshtml",
               "ToolTip": "C:\\Users\\moham\\OneDrive\\Desktop\\C#\\CRUDTask\\CRUDTask\\Views\\Products\\Create.cshtml",
               "RelativeToolTip": "CRUDTask\\Views\\Products\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-11T06:09:44.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Desktop\\C#\\CRUDTask\\CRUDTask\\Views\\Products\\Edit.cshtml",
               "RelativeDocumentMoniker": "CRUDTask\\Views\\Products\\Edit.cshtml",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "CRUDTask\\Views\\Products\\Edit.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAkwA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-11T05:43:09.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-11T05:43:09.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Desktop\\C#\\CRUDTask\\CRUDTask\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "CRUDTask\\Views\\Products\\Index.cshtml",
@@ -64,18 +80,17 @@
               "RelativeToolTip": "CRUDTask\\Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-11T05:07:33.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-11T05:07:33.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Desktop\\C#\\CRUDTask\\CRUDTask\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "CRUDTask\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\moham\\OneDrive\\Desktop\\C#\\CRUDTask\\CRUDTask\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "CRUDTask\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwC8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-11T05:07:02.849Z",
               "EditorCaption": ""
