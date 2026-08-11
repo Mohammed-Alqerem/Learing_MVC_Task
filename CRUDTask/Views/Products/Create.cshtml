@@ -1,0 +1,25 @@
+﻿
+<h1 class="my-5">Create Product</h1>
+
+
+<form class="d-flex flex-column gap-3" method="post" action="/products/add">
+
+
+    <div>
+        <label class="form-label">Name:</label>
+        <input class="form-control" type="text" name="Name" value="" />
+    </div>
+    <div>
+        <label class="form-label">Price:</label>
+        <input class="form-control" type="text" name="Price" value="" />
+    </div>
+    <div>
+        <label class="form-label">Rate:</label>
+        <input class="form-control" type="text" name="Rate" value="" />
+    </div>
+    <div>
+        <label class="form-label">Description:</label>
+        <textarea name="Description" class="form-control"></textarea>
+    </div>
+    <input class="form-control btn btn-primary" type="submit" value="Create" />
+</form>

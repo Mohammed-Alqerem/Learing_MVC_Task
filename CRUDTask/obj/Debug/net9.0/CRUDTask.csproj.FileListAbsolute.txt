@@ -228,3 +228,4 @@ C:\Users\moham\OneDrive\Desktop\C#\CRUDTask\CRUDTask\obj\Debug\net9.0\refint\CRU
 C:\Users\moham\OneDrive\Desktop\C#\CRUDTask\CRUDTask\obj\Debug\net9.0\CRUDTask.pdb
 C:\Users\moham\OneDrive\Desktop\C#\CRUDTask\CRUDTask\obj\Debug\net9.0\CRUDTask.genruntimeconfig.cache
 C:\Users\moham\OneDrive\Desktop\C#\CRUDTask\CRUDTask\obj\Debug\net9.0\ref\CRUDTask.dll
+C:\Users\moham\OneDrive\Desktop\C#\CRUDTask\CRUDTask\obj\Debug\net9.0\CRUDTask.sourcelink.json
