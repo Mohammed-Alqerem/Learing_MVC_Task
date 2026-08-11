@@ -47,5 +47,12 @@ namespace CRUDTask.Controllers
             }
             return View("create",request);
         }
+
+        public IActionResult Details(int Id)
+        {
+            var product = context.Products.Find(Id);
+            return View(product);
+        }
+        
     }
 }

@@ -11,21 +11,40 @@
     </thead>
     <tbody>
 
-        @foreach(var product in Model)
+        @if(Model.Count > 0)
         {
-        <tr>
+            @foreach (var product in Model)
+            {
+                <div>
+                    <tr>
+
+                        <td>@product.Id</td>
+                        <td>@product.Name</td>
+                        <td>@product.Price$</td>
+                        <td>
+                            <a href="/products/edit/@product.Id" class="btn btn-success">Update</a>
+                            <a href="/products/details/@product.Id" class="btn btn-primary">Details</a>
+                            <a href="/products/delete/@product.Id" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                    
+                </div>
+               
+                
+
+            }
             
-            <td>@product.Id</td>
-            <td>@product.Name</td>
-            <td>@product.Price$</td>
-            <td>
-                <a href="/products/edit/@product.Id" class="btn btn-success">Update</a>
-                <a href="#" class="btn btn-primary">Details</a>
-                <a href="products/delete/@product.Id" class="btn btn-danger">Delete</a>
-            </td>
-        </tr>
-            
+
         }
-       
+        else
+        {
+            <tr >
+                <td colspan="5">
+                <h1 class="text-secondary text-center py-5">Empty</h1>
+
+                </td>
+            </tr>
+        }
+
     </tbody>
 </table>

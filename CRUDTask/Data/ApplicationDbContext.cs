@@ -12,7 +12,7 @@ namespace CRUDTask.Data
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer("Data Source=.;DataBase=CRUDTaskDB;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False;Command Timeout=30");
         }
-         
+
         // Seeding Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
