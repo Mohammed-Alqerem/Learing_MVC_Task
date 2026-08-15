@@ -21,9 +21,14 @@ namespace CRUDTask.Controllers
         }
         public IActionResult Update(Product request)
         {
+            if (ModelState.IsValid)
+            {
             var product = context.Products.Update(request);
             context.SaveChanges();
             return RedirectToAction("Index");
+
+            }
+           return View("Edit",request);
         }
 
         public ActionResult Delete(int Id)

@@ -1,5 +1,5 @@
 ﻿@model List<Product>
-<h1 class="mb-5 ">Our Products</h1>
+<h1 class="mb-5">Our Products</h1>
 <table class="table">
     <thead>
         <tr>
@@ -15,23 +15,18 @@
         {
             @foreach (var product in Model)
             {
-                <div>
                     <tr>
 
                         <td>@product.Id</td>
                         <td>@product.Name</td>
                         <td>@product.Price$</td>
                         <td>
-                            <a href="/products/edit/@product.Id" class="btn btn-success">Update</a>
-                            <a href="/products/details/@product.Id" class="btn btn-primary">Details</a>
-                            <a href="/products/delete/@product.Id" class="btn btn-danger">Delete</a>
+                            <a  asp-controller="products" asp-action="edit" asp-route-id="@product.Id"  class="btn btn-success">Update</a>
+                            <a asp-controller="products" asp-action="details" asp-route-id="@product.Id" class="btn btn-primary">Details</a>
+                            <a asp-controller="products" asp-action="delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
-                    
-                </div>
                
-                
-
             }
             
 
@@ -40,7 +35,7 @@
         {
             <tr >
                 <td colspan="5">
-                <h1 class="text-secondary text-center py-5">Empty</h1>
+                <h1 class="text-secondary py-5 text-center">Empty</h1>
 
                 </td>
             </tr>

@@ -2,25 +2,34 @@
 <h1 class="my-5">Update Product</h1>
 
 
-<form class="d-flex flex-column gap-3" method="post" action="/products/update">
+<form class="d-flex flex-column gap-3" asp-action="update" asp-controller="products" method="post">
+    <input asp-for="Id" type="hidden" />
+    <div>
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control"   />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+   
+    <div>
+        <label asp-for="Price" class="form-label"></label>
+        <input asp-for="Price" class="form-control"  />
+        <span asp-validation-for="Price" class="text-danger"></span>
+
+    </div>
+   
+    <div>
+        <label asp-for="Rate" class="form-label"></label>
+        <input asp-for="Rate" class="form-control"  />
+        <span asp-validation-for="Rate" class="text-danger"></span>
+
+    </div>
     
-        <input class="form-control" type="hidden" name="Id" value="@Model.Id" />
-    
     <div>
-        <label class="form-label">Name:</label>
-        <input class="form-control" type="text" name="Name" value="@Model.Name"  />
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
     </div>
-    <div>
-        <label class="form-label">Price:</label>
-        <input class="form-control" type="text" name="Price" value="@Model.Price" />
-    </div>
-    <div>
-        <label class="form-label">Rate:</label>
-        <input class="form-control" type="text" name="Rate" value="@Model.Rate" />
-    </div>
-    <div>
-        <label class="form-label">Description:</label>
-        <textarea name="Description" class="form-control">@Model.Description</textarea>
-    </div>
+   
     <input class="form-control btn btn-primary" type="submit" value="Update" />
+
 </form>

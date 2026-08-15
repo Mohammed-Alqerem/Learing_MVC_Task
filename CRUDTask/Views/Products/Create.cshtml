@@ -3,29 +3,29 @@
 <h1 class="my-5">Create Product</h1>
 
 
-<form class="d-flex flex-column gap-3" method="post" action="/products/add">
+<form class="d-flex flex-column gap-3" asp-action="add" asp-controller="products" method="post">
 
 
     <div>
-        <label class="form-label">Name:</label>
-        <input class="form-control" type="text" name="Name" value="@Model.Name" />
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
         <span class="text-danger" asp-validation-for="Name"></span>
     </div>
     <div>
-        <label class="form-label">Price:</label>
-        <input class="form-control" type="text" name="Price" value="@Model.Price" />
+        <label asp-for="Price" class="form-label"></label>
+        <input asp-for="Price" class="form-control"  />
         <span class="text-danger" asp-validation-for="Price"></span>
 
     </div>
     <div>
-        <label class="form-label">Rate:</label>
-        <input class="form-control" type="text" name="Rate" value="@Model.Rate" />
+        <label asp-for="Rate" class="form-label"></label>
+        <input asp-for="Rate" class="form-control" />
         <span class="text-danger" asp-validation-for="Rate"></span>
 
     </div>
     <div>
-        <label class="form-label">Description:</label>
-        <textarea name="Description" class="form-control">@Model.Description</textarea>
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" name="Description" class="form-control"></textarea>
         <span class="text-danger" asp-validation-for="Description"></span>
 
     </div>
